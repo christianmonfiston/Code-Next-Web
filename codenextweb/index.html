@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Monfiston</title>
+    <link rel="stylesheet" href=style.css>
+
+    <!--Fecth a font using Google API-->
+   
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class="infos">
+        <nav>
+            <h2 class="welcome">Hello <span>There!</span></h2>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Activities
+                </a></li>
+                <li><a href="#"S>Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <a href="#" class="btn">Contact</a>
+            <button type="button" onclick="toggleBtn()" id="lightbtn"><span></span>></button>
+        </nav>
+
+        <div class="content">
+            <h4>Hello everyone! I'm </h4>
+            <h1>Christian <span>Monfiston</span></h1>
+            <h3>I'm an aspiring Software Developer! I was born and raised in Haiti.<br>
+                I'm currently a senior with interests in <span id="words">Computer Science </span>and <span id="Eco">Economics!</span></h3>
+            <div class="messagecard">
+                <form>
+                <input type="email" name="email" id="mail" placeholder="Send me a message">
+                <input type="submit" name="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+<section class="about" id="about">
+    <div class="main">
+        <img src="images/IMG_0131.jpeg" width =500px>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h5>Student at <span>Google Code Next</span></h5>
+            <p>I was born in Petion-Ville, Haiti. I grew up with a passion for innovation, leadership
+            . I have a profound interest to change my community through actions and determination. I'm majoring in Computer Science to code my dreams to life!</p>
+            <button class="aboutbtn" type="button">More about</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <div class="main">
+        <img src="images/IMG-1743.jpg" width =500px>
+        <div class="about-text">
+            <h2>My <span>Activities</span></h2>
+            <h5><span>Key Club, Science Olympiad, Mock Trial, Environmental Club, Soccer, Volunteering</span></h5>
+            <p>I love volunteering and helping my community. I currently serve as my school Key Club President, I love helping those around me and I want to change the world!</p>
+            <button class="aboutbtn" type="button">More about</button>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="main">
+        <img src="images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.webp" width =500px>
+        <div class="about-text">
+            <h2>My <span>Skills</span></h2>
+            <h5><span>Javascript, HTML, CSS, Basic Python, Blender 3D</span></h5>
+            <p>I love doing 3d Models, work on mobile app design, I love coding small video games and other fun projects.</p>
+            <button class="aboutbtn" type="button">More about</button>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="main">
+        <img src="images/glass3.png" width =500px>
+        <div class="about-text">
+            <h2>Some <span>Projects</span></h2>
+            <h5><span>3D Model</span></h5>
+            <p>I made this render with Blender, a free 3d Modeling Sofware </p>
+            <button class="aboutbtn" type="button">More about</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var bouton = document.getElementById("lightbtn");
+    var boutonlight = document.getElementById("darkbtn");
+
+    function toggleBtn(){
+        bouton.classList.toggle("active");
+        boutondark.classList.toggle("on")
+    }
+</script>
+</body>
+</html>

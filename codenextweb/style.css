@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+  
+#darkbtn {
+    background-color: #fff;
+}
+.infos {
+    height: 100vh;
+    width: 100%;
+    color: azure;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.welcome{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+
+}
+
+span{
+    color: rgb(72, 72, 244);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+   color:rgb(72, 72, 244);
+   transition: .4s;
+
+}
+
+.btn{
+    background-color:rgb(72, 72, 244);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s; 
+}
+
+.btn:hover{
+   transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #585c63;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.messagecard form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.messagecard form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(72, 72, 244); 
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.messagecard form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(72, 72, 244);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+    top: 6px;
+    right: 6px;
+}
+
+button {
+    background: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer; 
+}
+
+button span {
+    display: block;
+    background: rgb(72, 72, 244);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 0px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+.active {
+    background: rgb(72, 72, 244);
+}
+
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+
+.on {
+    background-color: #fff;
+}
+    
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+
+.about-img{
+    width: 430px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-text{
+    width: 530px;
+}
+
+.main{
+    width: 2500px;
+    max-width: 95%;
+    margin-top: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.aboubtbtn {
+    background-color: rgb(72, 72, 244);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    width: 500px;
+    height: 40px;
+}
+
+.aboubtbtn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(72, 72, 244);
+    cursor: pointer;
+
+}
+
+button {
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 244);
+    transition: .5s;
+}
